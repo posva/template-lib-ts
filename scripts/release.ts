@@ -56,11 +56,7 @@ const MAIN_PKG_NAME = 'posva-template-lib'
 const IS_MAIN_PKG_AT_ROOT = true
 const PKG_FOLDERS = [join(__dirname, '..')]
 
-const FILES_TO_COMMIT = [
-  'package.json',
-  'pnpm-lock.yaml',
-  'CHANGELOG.md',
-]
+const FILES_TO_COMMIT = ['package.json', 'pnpm-lock.yaml', 'CHANGELOG.md']
 
 const run = (bin: string, args: string[], opts: ExecaOptions = {}) =>
   execa(bin, args, { stdio: 'inherit', ...opts })

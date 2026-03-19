@@ -27,17 +27,17 @@ After forking, find & replace `posva-template-lib` with your package name, then 
 
 ## Scripts
 
-| Command | Description |
-|---|---|
-| `pnpm dev` | Start Vitest UI |
-| `pnpm build` | Build with tsdown |
-| `pnpm test` | Build + test + typecheck |
-| `pnpm test:cov` | Run tests with coverage |
-| `pnpm test:types` | Typecheck |
-| `pnpm lint` | Lint with oxlint |
-| `pnpm fmt` | Format with oxfmt |
-| `pnpm release` | Interactive release script |
-| `pnpm size` | Check bundle size |
+| Command           | Description                |
+| ----------------- | -------------------------- |
+| `pnpm dev`        | Start Vitest UI            |
+| `pnpm build`      | Build with tsdown          |
+| `pnpm test`       | Build + test + typecheck   |
+| `pnpm test:cov`   | Run tests with coverage    |
+| `pnpm test:types` | Typecheck                  |
+| `pnpm lint`       | Lint with oxlint           |
+| `pnpm fmt`        | Format with oxfmt          |
+| `pnpm release`    | Interactive release script |
+| `pnpm size`       | Check bundle size          |
 
 ## License
 

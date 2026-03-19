@@ -47,9 +47,5 @@
     "builtin": true
   },
   "globals": {},
-  "ignorePatterns": [
-    "**/*.ts.timestamp*",
-    "dist",
-    "**/CLAUDE.md"
-  ]
+  "ignorePatterns": ["**/*.ts.timestamp*", "dist", "scripts", "**/CLAUDE.md"]
 }
