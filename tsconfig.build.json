@@ -4,6 +4,10 @@
     "rootDir": ".",
     "composite": true,
     "declaration": true,
+    "isolatedModules": true,
+    // remove if not possible to explicitly type everything
+    // this enables fast oxc type emitting
+    "isolatedDeclarations": true,
     "emitDeclarationOnly": true,
     "declarationDir": "./.tsc-types/src",
     "noEmit": false,
