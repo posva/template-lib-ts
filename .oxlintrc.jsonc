@@ -12,7 +12,7 @@
   "rules": {
     // TODO: set to "warn" once per-rule fix disable is supported
     // https://github.com/oxc-project/oxc/issues/13306
-    "no-debbuger": "off",
+    "no-debugger": "off",
     "no-control-regex": "off",
     "no-dupe-class-members": "error",
     "no-unused-vars": "off",
