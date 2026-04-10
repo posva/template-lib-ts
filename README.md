@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/template-lib-ts.svg)](https://npmx.dev/package/template-lib-ts)
 [![ci](https://github.com/posva/template-lib-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/posva/template-lib-ts/actions/workflows/ci.yml)
 
-A modern TypeScript library template powered by the [oxc](https://oxc.rs/) toolchain for ultra-fast formatting, linting, and bundling.
+A modern TypeScript library template powered by the [oxc](https://oxc.rs/) toolchain for ultra-fast formatting, linting, and bundling, AGENTS.md support, release automation, better GitHub labels, and more.
 
 ## Getting Started
 
