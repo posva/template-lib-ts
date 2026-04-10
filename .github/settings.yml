@@ -3,9 +3,8 @@
 # NOTE: Color values are quoted to avoid YAML misinterpreting hex as numbers
 
 repository:
-  homepage: https://esm.dev
-  description: npmx posva
-  topics: posva, cli, card
+  description: Template for TypeScript libraries
+  topics: template, typescript, library, esm, starter
 
 labels:
   - name: 🐞 bug
