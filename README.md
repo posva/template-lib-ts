@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/posva-template-lib.svg)](https://npmx.dev/package/posva-template-lib)
 [![ci](https://github.com/posva/template-lib-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/posva/template-lib-ts/actions/workflows/ci.yml)
 
-A Vue.js library template.
+A modern TypeScript library template powered by the [oxc](https://oxc.rs/) toolchain for ultra-fast formatting, linting, and bundling.
 
 ## Getting Started
 

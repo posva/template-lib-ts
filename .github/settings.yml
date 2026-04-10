@@ -3,8 +3,8 @@
 # NOTE: Color values are quoted to avoid YAML misinterpreting hex as numbers
 
 repository:
-  description: Template for TypeScript libraries
-  topics: template, typescript, library, esm, starter
+  description: Modern TypeScript library template with ultra-fast oxc toolchain
+  topics: template, typescript, library, esm, starter, oxc, tsdown
 
 labels:
   - name: 🐞 bug
