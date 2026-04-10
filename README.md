@@ -3,7 +3,14 @@
 [![npm version](https://img.shields.io/npm/v/template-lib-ts.svg)](https://npmx.dev/package/template-lib-ts)
 [![ci](https://github.com/posva/template-lib-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/posva/template-lib-ts/actions/workflows/ci.yml)
 
-A modern TypeScript library template powered by the [oxc](https://oxc.rs/) toolchain for ultra-fast formatting, linting, and bundling, AGENTS.md support, [Claude Code hooks](https://code.claude.com/docs/en/hooks) for automated linting, release automation, better GitHub labels, and more.
+A modern, AI-ready TypeScript library template.
+
+- ⚡ Ultra-fast formatting, linting, and bundling with the [oxc](https://oxc.rs/) toolchain
+- 🤖 [AGENTS.md](./AGENTS.md) support for AI-assisted development
+- 🔁 [Claude Code hooks](https://code.claude.com/docs/en/hooks) for automated linting on stop
+- 📦 Automatic release previews on every PR with [pkg.pr.new](https://pkg.pr.new)
+- 🚀 One-command interactive release with changelog generation
+- 🏷️ Better GitHub labels and repo settings out of the box
 
 ## Getting Started
 
