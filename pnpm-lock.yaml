@@ -53,6 +53,9 @@ importers:
       oxlint:
         specifier: ^1.59.0
         version: 1.59.0
+      oxlint-plugin-posva:
+        specifier: ^0.0.1
+        version: 0.0.1
       semver:
         specifier: ^7.7.4
         version: 7.7.4
@@ -571,6 +574,10 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
+
+  '@oxlint/plugins@1.59.0':
+    resolution: {integrity: sha512-KIEedExMc60HKrkZi79403NbSgnJUyC9w6dCsqrY45ygIPzEyFdpxboiTyI8ZjeEw6Os03bspgZBfm6/fZbkOg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -1493,6 +1500,9 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
+  oxlint-plugin-posva@0.0.1:
+    resolution: {integrity: sha512-2zwUbkaH/wmd44Q2Bhr71Yyi28Y2LR/LACp6iRQvqvFxNDjoIW2B4i6oivVO5xTvdwgerATEtVInMCaF5JwEdg==}
+
   oxlint@1.59.0:
     resolution: {integrity: sha512-0xBLeGGjP4vD9pygRo8iuOkOzEU1MqOnfiOl7KYezL/QvWL8NUg6n03zXc7ZVqltiOpUxBk2zgHI3PnRIEdAvw==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -2231,6 +2241,8 @@ snapshots:
 
   '@oxlint/binding-win32-x64-msvc@1.59.0':
     optional: true
+
+  '@oxlint/plugins@1.59.0': {}
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
@@ -3076,6 +3088,10 @@ snapshots:
       '@oxfmt/binding-win32-arm64-msvc': 0.44.0
       '@oxfmt/binding-win32-ia32-msvc': 0.44.0
       '@oxfmt/binding-win32-x64-msvc': 0.44.0
+
+  oxlint-plugin-posva@0.0.1:
+    dependencies:
+      '@oxlint/plugins': 1.59.0
 
   oxlint@1.59.0:
     optionalDependencies:
