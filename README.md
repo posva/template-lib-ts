@@ -1,6 +1,6 @@
-# posva-template-lib
+# template-lib-ts
 
-[![npm version](https://img.shields.io/npm/v/posva-template-lib.svg)](https://npmx.dev/package/posva-template-lib)
+[![npm version](https://img.shields.io/npm/v/template-lib-ts.svg)](https://npmx.dev/package/template-lib-ts)
 [![ci](https://github.com/posva/template-lib-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/posva/template-lib-ts/actions/workflows/ci.yml)
 
 A modern TypeScript library template powered by the [oxc](https://oxc.rs/) toolchain for ultra-fast formatting, linting, and bundling.
@@ -14,9 +14,9 @@ A modern TypeScript library template powered by the [oxc](https://oxc.rs/) toolc
 
 ## Migration Checklist
 
-After forking, find & replace `posva-template-lib` with your package name, then go through these steps:
+After forking, find & replace `template-lib-ts` with your package name, then go through these steps:
 
-1. **Find & replace** `posva-template-lib` with your package name in all files
+1. **Find & replace** `template-lib-ts` with your package name in all files
 2. **Update `globalName`** in `tsdown.config.ts` (e.g. `PosvaTemplateLib` → `YourLibName`)
 3. **Update `package.json`**: `description`, `keywords`, `homepage`, `bugs`, `repository`
 4. **Update `LICENSE`** year and copyright holder

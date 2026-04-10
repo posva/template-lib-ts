@@ -1,20 +1,20 @@
 {
-  "name": "posva-template-lib",
+  "name": "template-lib-ts",
   "version": "0.0.0",
   "description": "Modern, ai-ready TypeScript library template",
   "keywords": [
     "your keywords here"
   ],
-  "homepage": "https://github.com/posva/posva-template-lib",
+  "homepage": "https://github.com/posva/template-lib-ts",
   "bugs": {
-    "url": "https://github.com/posva/posva-template-lib/issues"
+    "url": "https://github.com/posva/template-lib-ts/issues"
   },
   "license": "MIT",
   "author": {
     "name": "Eduardo San Martin Morote",
     "email": "posva13@gmail.com"
   },
-  "repository": "posva/posva-template-lib",
+  "repository": "posva/template-lib-ts",
   "funding": "https://github.com/sponsors/posva",
   "files": [
     "dist",
