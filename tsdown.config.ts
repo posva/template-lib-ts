@@ -11,6 +11,8 @@ const commonOptions = {
   target: 'esnext',
   tsconfig: 'tsconfig.build.json',
   dts: true,
+  // sets package.json "exports" field to the generated files
+  exports: true,
 } satisfies UserConfig
 
 export default defineConfig([
