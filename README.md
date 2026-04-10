@@ -22,8 +22,10 @@ After forking, find & replace `posva-template-lib` with your package name, then 
 4. **Update `LICENSE`** year and copyright holder
 5. **Update `release.yml`** repo condition (`github.repository == '...'`)
 6. **Set up npm trusted publishing** (see comments in `release.yml`)
-7. **Set up Codecov** (optional): add `codecov/codecov-action` step to `ci.yml`
-8. **Replace `src/`** with your library code
+7. **Set up [pkg.pr.new](https://pkg.pr.new)** (optional): install the [GitHub App](https://github.com/apps/pkg-pr-new/installations/select_target) on your repo, or remove `.github/workflows/pkg.pr.new.yml`
+8. **Set up [Settings](https://github.com/apps/settings)** (optional): install the [GitHub App](https://github.com/apps/settings) on your repo and update `.github/settings.yml`, or remove it
+9. **Set up Codecov** (optional): add `codecov/codecov-action` step to `ci.yml`
+10. **Replace `src/`** with your library code
 
 ## Scripts
 
