@@ -26,6 +26,7 @@ After forking, find & replace `posva-template-lib` with your package name, then 
 8. **Set up [Settings](https://github.com/apps/settings)** (optional): install the [GitHub App](https://github.com/apps/settings) on your repo and update `.github/settings.yml`, or remove it
 9. **Set up Codecov** (optional): add `codecov/codecov-action` step to `ci.yml`
 10. **Replace `src/`** with your library code
+11. **Update `AGENTS.md`**: title, description, and Architecture section to match your project
 
 ## Scripts
 

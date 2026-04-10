@@ -1,11 +1,9 @@
 {
   "name": "posva-template-lib",
   "version": "0.0.0",
-  "description": "A Vue.js library template",
+  "description": "Modern, ai-ready TypeScript library template",
   "keywords": [
-    "vue",
-    "library",
-    "template"
+    "your keywords here"
   ],
   "homepage": "https://github.com/posva/posva-template-lib",
   "bugs": {
@@ -92,7 +90,15 @@
   },
   "size-limit": [
     {
-      "name": "everything",
+      "name": "everything from source",
+      "path": "src/index.ts",
+      "import": "*",
+      "ignore": [
+        "vue"
+      ]
+    },
+    {
+      "name": "everything from dist",
       "path": "dist/index.mjs",
       "import": "*",
       "ignore": [
