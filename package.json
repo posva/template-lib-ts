@@ -57,26 +57,26 @@
     "@posva/prompts": "^2.4.4",
     "@size-limit/esbuild-why": "^12.1.0",
     "@size-limit/preset-small-lib": "^12.1.0",
-    "@types/node": "^26.0.0",
+    "@types/node": "^26.1.1",
     "@types/semver": "^7.7.1",
     "@vitejs/plugin-vue": "^6.0.7",
-    "@vitest/coverage-v8": "^4.1.9",
-    "@vitest/ui": "^4.1.9",
+    "@vitest/coverage-v8": "^4.1.10",
+    "@vitest/ui": "^4.1.10",
     "@vue/test-utils": "^2.4.11",
-    "conventional-changelog": "^7.2.0",
+    "conventional-changelog": "^7.2.1",
     "conventional-changelog-angular": "^8.3.1",
     "happy-dom": "^20.10.6",
     "lint-staged": "^17.0.8",
-    "oxfmt": "^0.55.0",
-    "oxlint": "^1.70.0",
+    "oxfmt": "^0.58.0",
+    "oxlint": "^1.73.0",
     "oxlint-plugin-posva": "^0.0.2",
     "semver": "^7.8.5",
     "simple-git-hooks": "^2.13.1",
     "size-limit": "^12.1.0",
-    "tsdown": "^0.22.3",
+    "tsdown": "^0.22.5",
     "typescript": "~6.0.3",
-    "vitest": "^4.1.9",
-    "vue": "^3.5.38"
+    "vitest": "^4.1.10",
+    "vue": "^3.5.39"
   },
   "peerDependencies": {
     "vue": "^3.5.17"
@@ -109,5 +109,5 @@
       ]
     }
   ],
-  "packageManager": "pnpm@11.8.0"
+  "packageManager": "pnpm@11.12.0+sha512.820a6fbd0d9f04c226638002aead1e45340a9139dd5dc077c1d83ef44aa2481c8eb6637b4c9aa696a3c7e35ba818e49cf27213e5f2b91138d09b7a3e26e898ba"
 }
