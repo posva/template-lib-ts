@@ -14,3 +14,4 @@ tsconfig.*.tsbuildinfo
 tsconfig.vitest-temp.json
 .tsc-types
 .cursor
+.pnpm-store/
