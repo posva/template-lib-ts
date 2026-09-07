@@ -12,7 +12,8 @@ const banner = `
 
 const commonOptions = {
   banner,
-  sourcemap: true,
+  // change to true if this helps debugging your library
+  sourcemap: false,
   format: ['esm'],
   deps: {
     onlyBundle: [],
